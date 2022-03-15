@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Games Tox - Accueil">
+    <meta name="description" content="jeux, gratuit, plateforme, Games, Tox, accueil">
+    <meta property="og:image" content="img/logo.png">
     <link rel="stylesheet" href="styles.css">
     <script defer src="main.js"></script>
     <title>Games Tox - Accueil</title>
@@ -41,20 +44,20 @@
                 </div>
             </div>
             <div class="buttons-left">
-                <div class="search">
+                <!-- <div class="search">
                     <input type="image" src="img/loupe.png" id="icon-search">
                     <input type="search" name="" id="search-bar" placeholder="Rechercher..." size="30">
                     <input type="image" src="img/croix.png" id="icon-clear">
                 </div>
                 <div id="point-separation">
                     •
-                </div>
+                </div> -->
                 <div class="container-img">
                     <input type="image" src="img/list.png" id="list-btn">
                     <div class="overlay-list">
-                        <p>
+                        <a href="games.html">
                             Jeux ↴
-                        </p>
+                        </a>
                         <a href="">
                             Jeu du morpion
                         </a>
@@ -62,10 +65,51 @@
                             Jeu du serpent
                         </a>
                         <a href="">
-                            Jeu du lorem
+                            Jeu du PacMen
+                        </a>
+                        <a href="">
+                            Jeu du FlappyCube
+                        </a>
+                        <a href="">
+                            Jeu du CutIt
+                        </a>
+                        <a href="">
+                            Jeu du Infinite Slide
+                        </a>
+                        <a href="">
+                            Jeu du Colorful DodgeShot
                         </a>
                     </div>
                 </div>
+                <div class="change-langage">
+                    <button type="submit">
+                        <img src="img/globe.png">
+                    </button>
+                    <select class="list-langage">
+                        <option>
+                            Français
+                        </option>
+                        <option>
+                            English
+                        </option>
+                        <option>
+                            Español
+                        </option>
+                        <option>
+                            Deutch
+                        </option>
+                    </select>
+                </div>
+                <!-- <div class="separation"></div>
+                <button class="button-connect">
+                    <p class="connect-items" id="status">
+                        En Ligne
+                    </p>
+                    <p class="connect-items" id="pseudo">
+                        Nekox
+                    </p>
+                    <img src="img/utilisateur.png">
+                </button> -->
             </div>
         </nav>
     </header>
@@ -76,230 +120,455 @@
                 Bienvenue sur <br> Games Tox
             </h1>
             <h2>
-                Games Tox est une plateforme de plusieurs jeu 2D
+                Games Tox est la plateforme de jeux 2D qu'il vous faut !
             </h2>
+            <p>
+                À partir de maintenant,
+                <br>
+                pour jouer à des petits jeux simple
+                <br>
+                ou encore à des casse-têtes rapidement utiliser GameTox !
+                <br>
+                C'est gratuit amusant et incroyable.
+                <br>
+                Amusez-vous bien !
+            </p>
         </div>
     </header>
-    <section class="sections-games" id="recent">
-        <h3>
-            Récents
-        </h3>
-        <div class="games-grids">
-            <div class="game-1 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du morpion
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+    <main>
+        <section class="sections-games" id="recent">
+            <h3>
+                Récents
+            </h3>
+            <div class="games-grids">
+                <div class="game-1 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du morpion
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-2 game">
+                    <div class="container-overlay-game container-game-2">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du serpent
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-3 game">
+                    <div class="container-overlay-game container-game-3">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du PacMen
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-4 game">
+                    <div class="container-overlay-game container-game-4">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du FlappyCube
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-5 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du CutIt
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="game-2 game">
-                <div class="container-overlay-game container-game-2">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du serpent
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+        </section>
+        <section class="sections-games" id="recommendations">
+            <h3>
+                Recommandations
+            </h3>
+            <div class="games-grids">
+                <div class="game-1 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du morpion
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-2 game">
+                    <div class="container-overlay-game container-game-2">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du serpent
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-3 game">
+                    <div class="container-overlay-game container-game-3">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Infinite Slide
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-4 game">
+                    <div class="container-overlay-game container-game-4">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du CutIt
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-5 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Colorful DodgeShot
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="game-3 game">
-                <div class="container-overlay-game container-game-3">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+        </section>
+        <section class="sections-games" id="news">
+            <h3>
+                Nouveautés
+            </h3>
+            <div class="games-grids">
+                <div class="game-1 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du FlappyCube
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-2 game">
+                    <div class="container-overlay-game container-game-2">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Infinite Slide
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-3 game">
+                    <div class="container-overlay-game container-game-3">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du CutIt
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-4 game">
+                    <div class="container-overlay-game container-game-4">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Colorful DodgeShot
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-5 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du PacMen
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="game-4 game">
-                <div class="container-overlay-game container-game-4">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+        </section>
+        <section class="sections-games" id="others">
+            <h3>
+                Autres
+            </h3>
+            <div class="games-grids">
+                <div class="game-1 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du FlappyCube
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-2 game">
+                    <div class="container-overlay-game container-game-2">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Infinite Slide
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-3 game">
+                    <div class="container-overlay-game container-game-3">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du CutIt
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-4 game">
+                    <div class="container-overlay-game container-game-4">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du Colorful DodgeShot
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-5 game">
+                    <div class="container-overlay-game">
+                        <img src="" alt="">
+                        <h4 class="name-game">
+                            Jeu du PacMen
+                        </h4>
+                        <div class="overlay-game">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="game-5 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sections-games" id="recommendations">
-        <h3>
-            Recommandations
-        </h3>
-        <div class="games-grids">
-            <div class="game-1 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du morpion
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-2 game">
-                <div class="container-overlay-game container-game-2">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du serpent
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-3 game">
-                <div class="container-overlay-game container-game-3">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-4 game">
-                <div class="container-overlay-game container-game-4">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-5 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sections-games" id="news">
-        <h3>
-            Nouveautés
-        </h3>
-        <div class="games-grids">
-            <div class="game-1 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du morpion
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-2 game">
-                <div class="container-overlay-game container-game-2">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du serpent
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-3 game">
-                <div class="container-overlay-game container-game-3">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-4 game">
-                <div class="container-overlay-game container-game-4">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="game-5 game">
-                <div class="container-overlay-game">
-                    <img src="" alt="">
-                    <h4 class="name-game">
-                        Jeu du lorem
-                    </h4>
-                    <div class="overlay-game">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
-        <span>
-            © - Copyright 2022
-        </span>
+        <ul>
+            <li>
+                <h6>
+                    <a href="index.html">
+                        Accueil
+                    </a>
+                </h6>
+            </li>
+            <li>
+                <a href="index.html">
+                    Description
+                </a>
+            </li>
+            <!-- <li>
+                <a href="#recent">
+                    Récents
+                </a>
+            </li> -->
+            <li>
+                <a href="#recommendations">
+                    Recommandations
+                </a>
+            </li>
+            <li>
+                <a href="#news">
+                    Nouveautés
+                </a>
+            </li>
+            <li>
+                <a href="#others">
+                    Autres
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h6>
+                    <a href="games.html">
+                        Jeux
+                    </a>
+                </h6>
+            </li>
+            <li>
+                <a href="Games/Morpion.html">
+                    Morpion
+                </a>
+            </li>
+            <li>
+                <a href="Games/Snakes.html">
+                    Serpent
+                </a>
+            </li>
+            <li>
+                <a href="Games/PacMen.html">
+                    PacMen
+                </a>
+            </li>
+            <li>
+                <a href="Games/FlappyCube.html">
+                    FlappyCube
+                </a>
+            </li>
+            <li>
+                <a href="Games/CutIt.html">
+                    CutIt
+                </a>
+            </li>
+            <li>
+                <a href="Games/Infinite-Slide.html">
+                    Infinite Slide
+                </a>
+            </li>
+            <li>
+                <a href="Games/Colorful-DodgeShot.html">
+                    Colorful DodgeShot
+                </a>
+            </li>
+        </ul>
+        <div>
+            <ul>
+                <li>
+                    <h6>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </h6>
+                </li>
+                <li>
+                    <a href="contact.html#form-contact">
+                        Formulaire de contact
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html#link">
+                        Différent résaux
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h6>
+                        <a href="about.html">
+                            À Propos
+                        </a>
+                    </h6>
+                </li>
+                <li>
+                    <a href="about.html#sites-description">
+                        Le Site
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html#why">
+                        Pourquoi
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="other-footer">
+            <a href="">
+                <img src="img/discord.webp" class="logo-contact">
+                Discord
+            </a>
+            <a href="mailto:GamesTox.help@gmail.com">
+                <img src="img/enveloppe.png" class="logo-contact">
+                Mail
+            </a>
+            <a href="https://github.com/78mf/GamesTox">
+                <img src="img/github.png" class="logo-contact">
+                GitHub
+            </a>
+            <label for="switch">
+                Changer de thème
+            </label>
+            <label class="container-switch">
+                <input type="checkbox" id="switch">
+                <span></span>
+            </label>
+            <hr>
+            <span class="copyright">
+                © Copyright 2022 -- by Nekox
+            </span>
+        </div>
     </footer>
 </body>
 

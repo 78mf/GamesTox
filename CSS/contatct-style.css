@@ -1,0 +1,83 @@
+#form-contact * {
+    text-align: center;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+#form-contact p {
+    font-size: 24px;
+    color: #12a7d5;
+}
+
+#form-contact form {
+    display: grid;
+    grid-template: repeat(7, 1fr) / 30% 70%;
+    row-gap: 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#form-contact form * {
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+#form-contact label{
+    grid-column: 1/2;
+}
+
+#first-name {
+    grid-area: 1/2/2/3;
+}
+
+#last-name {
+    grid-area: 2/2/3/3;
+}
+
+#mail {
+    grid-area: 3/2/4/3;
+}
+
+#subject {
+    grid-area: 4/2/5/3;
+}
+
+#message {
+    grid-area: 5/2/7/3;
+}
+
+#form-contact button{
+    grid-area: 7/1/8/3;
+}
+
+#link p {
+    text-align: center;
+    text-decoration: none;
+    color: #12a7d5;
+    font-size: 22px;
+}
+
+#link img {
+    width: 48px;
+}
+
+#container-link {
+    display: flex;
+    justify-content: space-around;
+    column-count: 3;
+}
+
+#container-link a {
+    color: #107fc5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-link img {
+    margin-top: 5px;
+}
