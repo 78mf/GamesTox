@@ -15,10 +15,11 @@ body {
 }
 
 .indispo {
-    width: 100vw;
-    height: 100vw;
+    width: 50vw;
+    height: 25vh;
     color: #232323;
     font-size: 35px;
+    margin: calc(calc(25vh - 1em) / 2) auto;
 }
 
 header.nav-bar {
